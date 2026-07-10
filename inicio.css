@@ -1,0 +1,133 @@
+/* Fondo oscuro para la sección principal */
+.seccion-hero {
+  background-color: #0b132b; /* Azul marino oscuro similar al ejemplo */
+  padding: 80px 0;
+  padding-top: 140px;
+  min-height: 80vh; /* Ocupa casi todo el alto de la pantalla */
+}
+
+/* Estilo para la foto de perfil */
+.foto-perfil {
+  max-width: 300px;
+  border-radius: 20px; /* Bordes redondeados suaves como la imagen */
+  border: 4px solid rgba(255, 255, 255, 0.1); /* Borde sutil */
+}
+
+/* Color personalizado para el resaltado del nombre (opcional si no usas text-info) */
+.text-info {
+  color: #00b4d8 !important; 
+}
+
+/* Sección Sobre Mí */
+.seccion-sobre-mi {
+  background-color: #1c2541; /* Un tono un poco más claro que el Home para dar contraste */
+}
+
+/* Efecto de desplazamiento suave en toda la página */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Sección Habilidades */
+.seccion-habilidades {
+  background-color: #0b132b; /* Alternamos al fondo más oscuro para contraste */
+}
+
+/* Tarjetas de cada habilidad */
+.tarjeta-skill {
+  background-color: #1c2541; /* Fondo de la tarjeta */
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto para que se muevan los tarjetas (al pasar el mouse) */
+.tarjeta-skill:hover {
+  transform: translateY(-8px); /* Eleva la tarjeta */
+  box-shadow: 0 10px 20px rgba(0, 180, 216, 0.2); /* Sombra con el brillo azul */
+  border-color: #00b4d8;
+}
+
+/* Tamaño  de los iconos */
+.icono-skill {
+  font-size: 3.5rem;
+}
+
+/* Colores */
+.html-color { color: #e34c26; }
+.css-color { color: #264de4; }
+.js-color { color: #f0db4f; }
+.bootstrap-color { color: #7952b3; }
+.git-color { color: #ffffff; }
+
+
+/* Sección Proyectos     */
+.seccion-proyectos {
+  background-color: #1c2541;
+}
+
+/* Controla el tamaño máximo de la tarjeta para que no se estire feo en pantallas grandes */
+.seccion-proyectos .card {
+  max-width: 450px; /* Tamaño ideal para que se vea estético y centrado */
+  margin: 0 auto;   /* Centrado horizontal de respaldo */
+}
+
+/* Control total sobre la imagen del carrusel */
+.seccion-proyectos .card-img-top {
+  width: 100%;       /* Ocupa todo el ancho de la tarjeta */
+  height: 240px;     /* Alto fijo ideal para la previsualización */
+  object-fit: cover; /* Ajusta y recorta la imagen automáticamente sin estirarla */
+  object-position: center; /* Centra el enfoque de la foto */
+}
+
+/* Espacio controlado para las flechas laterales */
+.carousel-control-prev, .carousel-control-next {
+  width: 8%;
+}
+
+
+/* Sección Contacto */
+.seccion-contacto {
+  background-color: #0b132b; /* Fondo oscuro profundo */
+}
+
+/* Efecto hover en los iconos de redes sociales */
+.enlace-red {
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.enlace-red:hover {
+  color: #00b4d8 !important; /* Brillo azul al pasar el mouse */
+  transform: translateY(-3px);
+}
+
+/* Cambiar el color del borde enfocado en los inputs de Bootstrap */
+.seccion-contacto .form-control:focus {
+  background-color: #1c2541 !important;
+  color: #ffffff;
+  border-color: #00b4d8;
+  box-shadow: 0 0 0 0.25rem rgba(0, 180, 216, 0.25);
+}
+
+/* Estilo para los placeholders (texto de sugerencia dentro del input) */
+.seccion-contacto .form-control::placeholder {
+  color: #6c757d;
+}
+
+/* Estilos para el Footer */
+.seccion-footer {
+  background-color: #0b132b; /* El mismo fondo oscuro profundo del inicio */
+}
+
+.footer-links a {
+  transition: color 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre los links del footer */
+.footer-links a:hover {
+  color: #00b4d8 !important; /* Cambia al azul aguamarina de tu paleta */
+}
+
+
+

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="inicio.css">
+    <script src="hora.js"></script>
+</head>
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow" style="background-color: #0b132b;">
+  <div class="container">
+    
+    <a class="navbar-brand fw-bold text-info" href="#">MiPortafolio</a>
+    
+    <!-- Botón para pantallas de celular -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- Contenedor de enlaces -->
+    <div class="collapse navbar-collapse" id="menuPrincipal">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="#">inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="#sobre-mi">sobre mí</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="#habilidades">habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="#proyectos">proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="#contacto">contacto</a>
+        </li>
+      </ul>
+      
+      <!-- Espacio invisible a la derecha en pantallas grandes para equilibrar el centrado perfecto -->
+      <div class="d-none d-lg-flex" style="width: 100px;"></div>
+    </div>
+
+  </div>
+</nav>
+<header class="seccion-hero text-white d-flex align-items-center">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Columna Izquierda: Texto y Botones -->
+      <div class="col-md-7 text-center text-md-start mb-4 mb-md-0">
+        <h1 class="display-4 fw-bold">Hola, soy <br><span class="text-info">José González</span></h1>
+        <p class="lead text-secondary">estudiante de Ingienieria informatica</p>
+        <p class="mb-4">Me gusta crear codigos y diseñar las paginas.</p>
+        
+        <!-- Botones -->
+        <div class="d-flex gap-2 justify-content-center justify-content-md-start">
+          <a href="#proyectos" class="btn btn-outline-light px-4">Mis proyectos</a>
+          <a href="CV.jpg" download="CV.jpg" class="btn btn-primary px-4">Descargar CV</a>
+        </div>
+      </div>
+      
+      <!-- Columna Derecha: Foto -->
+      <div class="col-md-5 text-center">
+        <img src="yo.jpg" alt="Foto de José" class="img-fluid foto-perfil shadow-lg">
+      </div>
+
+    </div>
+  </div>
+</header>
+
+        </div>
+    </div>
+</header>
+<!-- SECCIÓN SOBRE MÍ -->
+<section id="sobre-mi" class="seccion-sobre-mi py-5 text-white">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!--  Izquierda: -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <h2 class="display-5 fw-bold mb-3">Sobre Mí</h2>
+        <p class="lead text-secondary">Un poco más de mi historia en el desarrollo web.</p>
+        <p>Soy una persona apasionada por la tecnología y el diseño. Me especializo en crear interfaces de paginas web limpias, accesibles y optimizadas para cualquier dispositivo utilizando herramientas como visual studio code y boostrap.</p>
+        <p class="mb-4">Mi objetivo es seguir aprendiendo y aportar valor a equipos de desarrollo con soluciones creativas y eficientes.</p>
+      </div>
+      
+      <!-- Derecha:  -->
+      <div class="col-md-6">
+        <div class="card bg-dark border-secondary p-4 text-white shadow">
+          <h4 class="mb-3 text-info fw-bold">Información de Interés</h4>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">
+                <i class="bi bi-geo-alt me-2"></i>
+                <strong> Ubicación:</strong> Paraguay, Asunción
+            </li>
+            <li class="mb-2">
+                <i class="bi bi-calendar me-2"></i>
+                <strong> Disponibilidad:</strong> equipos de desarrollo como junior / trabajo medio tiempo
+            </li>
+            <li class="mb-2">
+                <i class="bi bi-backpack me-2"></i>
+                <strong> Educación:</strong> Ingeniería informatica - UniNorte , Asunción.
+            </li>
+            <li>
+                <i class="bi bi-at me-2"></i>
+                <strong> Correo:</strong> Gonzalezpavonjosemaria25@gmail.com
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- SECCIÓN HABILIDADES -->
+<section id="habilidades" class="seccion-habilidades py-5 text-white">
+  <div class="container">
+    
+    <div class="text-center mb-5">
+      <h2 class="display-5 fw-bold">Mis Habilidades</h2>
+      <p class="text-secondary">Las tecnologías y herramientas que utilizo para dar vida a los proyectos.</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      
+      <!-- HTML5 -->
+      <div class="col-6 col-sm-4 col-md-3 text-center">
+        <div class="tarjeta-skill p-4 shadow">
+          <i class="bi bi-filetype-html icono-skill html-color mb-3"></i>
+          <h5>HTML5</h5>
+        </div>
+      </div>
+
+      <!-- CSS3 -->
+      <div class="col-6 col-sm-4 col-md-3 text-center">
+        <div class="tarjeta-skill p-4 shadow">
+          <i class="bi bi-filetype-css icono-skill css-color mb-3"></i>
+          <h5>CSS3</h5>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="col-6 col-sm-4 col-md-3 text-center">
+        <div class="tarjeta-skill p-4 shadow">
+          <i class="bi bi-filetype-js icono-skill js-color mb-3"></i>
+          <h5>JavaScript</h5>
+        </div>
+      </div>
+
+      <!-- Bootstrap -->
+      <div class="col-6 col-sm-4 col-md-3 text-center">
+        <div class="tarjeta-skill p-4 shadow">
+          <i class="bi bi-bootstrap-fill icono-skill bootstrap-color mb-3"></i>
+          <h5>Bootstrap</h5>
+        </div>
+      </div>
+
+      <!-- Git / GitHub -->
+      <div class="col-6 col-sm-4 col-md-3 text-center">
+        <div class="tarjeta-skill p-4 shadow">
+          <i class="bi bi-github icono-skill git-color mb-3"></i>
+          <h5>GitHub</h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- SECCIÓN PROYECTOS-->
+ <section id="proyectos" class="seccion-proyectos py-5 text-white">
+  <div class="container">
+    
+    <!-- Título de la sección -->
+    <div class="text-center mb-5">
+      <h2 class="display-5 fw-bold">Mis Proyectos</h2>
+      <p class="text-secondary">Estos son algunos de mis trabajos hechos en claseS.</p>
+    </div>
+
+    <!-- Carrusel Principal -->
+    <div id="carruselProyectos" class="carousel slide" data-bs-ride="carousel">
+      
+      <!-- Contenedor de las diapositivas -->
+      <div class="carousel-inner">
+        
+        <!-- Proyecto 1 -->
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-11 col-md-6 col-lg-5">
+              <div class="card bg-dark text-white border-secondary shadow mx-auto">
+                <img src="calculadora.jpg" class="card-img-top img-placeholder" alt="calculadora">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-info">Calculadora</h5>
+                  <p class="card-text text-secondary">mi calculadora basica creada en visual studio code.</p>
+                  <div class="mb-3">
+                    <span class="badge bg-secondary me-1">HTML5</span>
+                    <span class="badge bg-secondary me-1">Bootstrap</span>
+                    <span class="badge bg-secondary">JS</span>
+                  </div>
+                  <!-- Contenedor con los dos botones alineados -->
+                  <div class="d-flex gap-2">
+                    <a href="https://solid-777.github.io/calculadora/" target="_blank" class="btn btn-primary w-50">
+                      <i class="bi bi-box-arrow-up-right me-2"></i>Proyecto
+                    </a>
+                    <a href="https://github.com/Solid-777/calculadora" target="_blank" class="btn btn-outline-light w-50">
+                      <i class="bi bi-github me-2"></i>Código
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-11 col-md-6 col-lg-5">
+              <div class="card bg-dark text-white border-secondary shadow mx-auto">
+                <img src="formulario.jpg" class="card-img-top img-placeholder" alt="imagen de mi primera pagina web">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-info">mis primeros formularios</h5>
+                  <p class="card-text text-secondary">mis primeros formularios hechos en visual estudio code.</p>
+                  <div class="mb-3">
+                    <span class="badge bg-secondary me-1">HTML5</span>
+                    <span class="badge bg-secondary me-1">CSS3</span>
+                    <span class="badge bg-secondary">Bootstrap</span>
+                  </div>
+                  <!-- Contenedor con los dos botones alineados -->
+                  <div class="d-flex gap-2">
+                    <a href="https://solid-777.github.io/mi-primer-formulario/" target="_blank" class="btn btn-primary w-50">
+                      <i class="bi bi-box-arrow-up-right me-2"></i>Proyecto
+                    </a>
+                    <a href="https://github.com/Solid-777/mi-primer-formulario" target="_blank" class="btn btn-outline-light w-50">
+                      <i class="bi bi-github me-2"></i>Código
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-11 col-md-6 col-lg-5">
+              <div class="card bg-dark text-white border-secondary shadow mx-auto">
+                <img src="responsivo.jpg" class="card-img-top img-placeholder" alt="Vista previa App Clima">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-info">mi primera pagina web con diseño responsivo</h5>
+                  <p class="card-text text-secondary">trabajo en clase</p>
+                  <div class="mb-3">
+                    <span class="badge bg-secondary me-1">HTML5</span>
+                    <span class="badge bg-secondary">Bootstrap</span>
+                  </div>
+                  <!-- Contenedor con los dos botones alineados -->
+                  <div class="d-flex gap-2">
+                    <a href="https://solid-777.github.io/dise-o-responsivo/" target="_blank" class="btn btn-primary w-50">
+                      <i class="bi bi-box-arrow-up-right me-2"></i>Proyecto
+                    </a>
+                    <a href="https://github.com/Solid-777/dise-o-responsivo" target="_blank" class="btn btn-outline-light w-50">
+                      <i class="bi bi-github me-2"></i>Código
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controles de Flechas -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carruselProyectos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carruselProyectos" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+
+    </div>
+  </div>
+  <!-- SECCIÓN CONTACTO -->
+<section id="contacto" class="seccion-contacto py-5 text-white">
+  <div class="container">
+    
+    <!-- Título de la sección -->
+    <div class="text-center mb-5">
+      <h2 class="display-5 fw-bold">Contacto</h2>
+      <p class="text-secondary">¿Tienes un proyecto en mente o quieres trabajar juntos? ¡Escríbeme!</p>
+    </div>
+
+    <div class="row g-5">
+      
+      <!-- Columna Izquierda: Información de contacto -->
+      <div class="col-md-5 d-flex flex-column justify-content-center">
+        <h3 class="fw-bold text-info mb-3">¡Hablemos!</h3>
+        <p class="mb-4 text-secondary">Puedes enviarme un mensaje a través del formulario o contactarme directamente por mis redes sociales o correo electrónico.</p>
+        
+        <div class="mb-3">
+          <p class="mb-2"><i class="bi bi-envelope-fill text-info me-2"></i> Gonzalezpavonjosemaria25@gmail.com</p>
+          <p class="mb-4"><i class="bi bi-telephone-fill text-info me-2"></i> +595 994-822-485</p>
+        </div>
+
+        <!-- Redes Sociales -->
+        <h5 class="fw-bold mb-3">Mis Redes</h5>
+        <div class="d-flex gap-3 fs-3">
+          <a href="https://github.com/Solid-777" class="text-white enlace-red"><i class="bi bi-github"></i></a>
+          <a href="https://www.instagram.com/josemjgp?igsh=MW53bXNwb2p1N2V3cQ==" class="text-white enlace-red"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Columna Derecha: Formulario de Contacto -->
+      <div class="col-md-7">
+        <div class="card bg-dark border-secondary p-4 shadow">
+         <!-- Formulario con textos visibles corregidos -->
+<form action="https://formspree.io/f/xykqrkzq" method="POST">
+      <!-- 1. Desactivar el Captcha (Evita que salte a la página de verificación) -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- 2. Redirigir automáticamente a tu propia página después de enviar -->
+  <input type="hidden" name="_next" value="">
+  <!-- Campo Nombre -->
+  <div class="mb-3">
+    <label for="nombre" class="form-label fw-bold text-white">Nombre Completo</label>
+    <input type="text" name="name" class="form-control bg-dark text-white border-secondary" id="nombre" placeholder="Ingresa tu nombre" required>
+  </div>
+  
+  <!-- Campo Correo -->
+  <div class="mb-3">
+    <label for="email" class="form-label fw-bold text-white">Correo Electrónico</label>
+    <input type="email" name="email" class="form-control bg-dark text-white border-secondary" id="email" placeholder="nombre@correo.com" required>
+  </div>
+
+  <!-- Campo Mensaje -->
+  <div class="mb-3">
+    <label for="mensaje" class="form-label fw-bold text-white">Mensaje</label>
+    <textarea name="message" class="form-control bg-dark text-white border-secondary" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+  </div>
+
+  <!-- Boton de Envio -->
+  <button type="submit" class="btn btn-primary w-100 fw-bold mt-2">
+    <i class="bi bi-send-fill me-2"></i>Enviar Mensaje
+  </button>
+</form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- FOOTER -->
+<footer class="seccion-footer py-4 text-center text-white border-top border-secondary">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <div class="col-md-6 text-md-start text-center mb-3 mb-md-0">
+        <p class="mb-0 text-secondary">&copy; 2026 José González. Diseñado con visual studio code <i class="bi bi-heart-fill text-danger"></i> utilizando Bootstrap.</p>
+      </div>
+      
+      <!-- Enlaces rápidos de navegación interna -->
+      <div class="col-md-6 text-md-end text-center">
+        <div class="footer-links">
+          <a href="#" class="text-secondary text-decoration-none me-3">Inicio</a>
+          <a href="#sobre-mi" class="text-secondary text-decoration-none me-3">Sobre Mí</a>
+          <a href="#habilidades" class="text-secondary text-decoration-none me-3">Habilidades</a>
+          <a href="#proyectos" class="text-secondary text-decoration-none">Proyectos</a>
+        </div>
+<div class="col-12 text-center mt-2">
+  <p class="text-secondary small mb-0">
+    <i class="bi bi-clock-fill text-info me-1"></i> 
+    Último acceso: <span id="fecha-hora" class="text-white">Cargando...</span>
+  </p>
+</div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+</body>
+</html>
