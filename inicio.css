@@ -1,6 +1,6 @@
 /* Fondo oscuro para la sección principal */
 .seccion-hero {
-  background-color: #0b132b; /* Azul marino oscuro similar al ejemplo */
+  background-color: #0b132b; /* Azul marino oscuro */
   padding: 80px 0;
   padding-top: 140px;
   min-height: 80vh; /* Ocupa casi todo el alto de la pantalla */
@@ -9,11 +9,11 @@
 /* Estilo para la foto de perfil */
 .foto-perfil {
   max-width: 300px;
-  border-radius: 20px; /* Bordes redondeados suaves como la imagen */
+  border-radius: 20px; /* Bordes redondeados  */
   border: 4px solid rgba(255, 255, 255, 0.1); /* Borde sutil */
 }
 
-/* Color personalizado para el resaltado del nombre (opcional si no usas text-info) */
+/* Color personalizado para el resaltado del nombre*/
 .text-info {
   color: #00b4d8 !important; 
 }
@@ -68,7 +68,7 @@ html {
 
 /* Controla el tamaño máximo de la tarjeta para que no se estire feo en pantallas grandes */
 .seccion-proyectos .card {
-  max-width: 450px; /* Tamaño ideal para que se vea estético y centrado */
+  max-width: 450px; /* Tamaño/
   margin: 0 auto;   /* Centrado horizontal de respaldo */
 }
 
@@ -126,7 +126,7 @@ html {
 
 /* Efecto al pasar el mouse sobre los links del footer */
 .footer-links a:hover {
-  color: #00b4d8 !important; /* Cambia al azul aguamarina de tu paleta */
+  color: #00b4d8 !important; /* Cambia al azul aguamarina*/
 }
 
 
